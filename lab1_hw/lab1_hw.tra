@@ -1,0 +1,23 @@
+*** Creating Trace Output File 'lab1_hw.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_lpc17xx.o"'
+### List of Objects: adding '"glcd_spi_lpc1700.o"'
+### List of Objects: adding '"system_lpc17xx.o"'
+### List of Objects: adding '"main_hw.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "startup_lpc17xx.o" "glcd_spi_lpc1700.o" "system_lpc17xx.o" "main_hw.o" 
+--strict --scatter "lab1_hw.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lab1_hw.map" -o lab1_hw.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'lab1_hw.axf'
+### ADS-LD Command File: 'lab1_hw.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'lab1_hw.lnp', Handle=0x000008C8
+### Writing '.lnp' file
+### ADS-LD Command file 'lab1_hw.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
